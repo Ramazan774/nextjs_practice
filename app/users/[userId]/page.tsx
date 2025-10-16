@@ -21,6 +21,7 @@ export default async function UserPage({
   if(!user) {
     notFound();
   } 
+  
   return (
     <div>
       <h1>{user.name}</h1>
